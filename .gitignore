@@ -1,0 +1,30 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.user
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Compiled objects
+*.o
+*.obj
+*.a
+*.lib
+*.dylib
+*.so
+*.dll
+
+# Plugin binaries (build products)
+*.vst3
+*.component
+*.clap
